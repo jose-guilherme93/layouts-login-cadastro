@@ -1,0 +1,22 @@
+
+
+.register{
+    display: inline-flex;
+    
+    margin-left: .25rem;
+    height: 3rem;
+    
+}
+
+
+
+/*** INPUT-FORM***/
+#btn-enter{
+    
+}
+
+#forgot-password{
+    
+    color: #4AD395;
+}
+

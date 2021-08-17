@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="signup.html">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
 </head>
+<header>
+    <a href="index.html"> <img src="assets/apple (1) 1.svg" class="img-logo" alt="logotipo com uma maça verde circundada com duas argolas que se entrelaçam, na região central da maça"></a>
+</header>
 <body>
-    <main>
-        <div>
-            <img src="assets/apple.svg" alt="">
-        </div>
+    <main class="container">
 
     <!-----CADASTRO BUTTONS------>
-        <section>
-            <button >
+        <section class="button">
+            <button class="button register" id="btn-register">
                 <a href="signup.html">Cadastre-se</a>
                 
             </button>
-            <button>
+            <button class="button register">
                 <a href="index.html">Já tenho cadastro</a>
                 
             </button>
         </section>
 
-    <!-----FORM INPUTS------>
-        <section class="form-inputs">
-            <input type="text" name="nome" id="nome" placeholder="Seu nome">
-            <input type="number" name="" id="" placeholder="Seu número de celular">
-            <input type="email" placeholder="Seu email">
-            <input type="password" placeholder="Digite uma senha forte">
-            <input type="password" placeholder="Digite a senha novamente">
-        </section>
+    <!-----INPUT FORM--------->
+        <form >
+            <input type="text" class="input-form" placeholder="Seu nome">
+            <input type="number" placeholder="Seu número de celular">
+            <input type="email" class="input-form" placeholder="Seu email">
+            <input type="password" class="input-form" placeholder="Digite uma senha forte">
+            <input type="password" class="input-form" placeholder="Digite a senha novamente">
+        </form>
     <!-----PRIVACY INPUT------>
 
-        <div>
-            <input type="checkbox" class="privacy-input" id="">
+        <section>
+            <input type="checkbox" class="privacy-input">
             <p>
-                Declaro que li e concordo com os os termos de uso, e a política de privacidade.
+                Declaro que li e concordo com os termos de uso, e a política de privacidade.
             </p>
-        </div>
+        </section>
 
         <section>
-            <button>
-            <a href="#">Finalizar cadastro</a>    
+            <button class="button">
+            <a href="index.html">Finalizar cadastro</a>    
                         
             </button>
-            <button>
+            <button class="button">
                 <a href="#">Carregando...</a>
             </button>
         </section>

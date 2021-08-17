@@ -1,37 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DietSystem</title>
-</head>
-<body>
-    <div>
-        <img src="assets/apple.svg" alt="">
-    </div>
-    <section>
-        <button>
-            <a href="signup.html">Cadastre-se</a>
-            
-        </button>
-        <button>
-            <a href="#">Já tenho cadastro</a>
-            
-        </button>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/index.css">
 
-        <div>
-            <input type="email" class="input-form">
-            <input type="password" class="input-form">
-            <a href="recover-password.html">esqueci minha senha</a>
-        </div>
-        <div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<header>
+  <a href="index.html"> <img src="assets/apple (1) 1.svg" class="img-logo" alt="logotipo com uma maçã verde circundada com duas argolas que se entrelaçam, em sua região central"></a>  
+</header>
+<body>
+    <main class="container">
             
-        </div>
-    </section>
-    <section>
-        <button><a href="#">Entrar</a></button>
-        <button><a href="#">carregando...</a></button>
-    </section>
+        <section class="button">
+           <button class="button register">
+                <a href="signup.html">Cadastre-se</a>
+                
+            </button> 
+            <button class="button register">
+                <a href="#">Já tenho cadastro</a>
+            </button>
+        </section>
+
+        <form class="input-form">
+            <input type="email" placeholder="Digite o seu email">
+                
+            <input type="password" placeholder="Digite a sua senha">
+            <section id="forgot-password">
+                <a href="recover-password.html">esqueci minha senha</a>
+            </section>
+                
+        </form>
+
+        <section class="button">
+            <button id="btn-enter"><a href="#">Entrar</a></button>
+            
+        
+        </section>
+            
+    </main>
 </body>
 </html>
