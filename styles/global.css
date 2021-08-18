@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
 button:hover, .button:hover{
     filter: brightness(1.1);
 
@@ -5,4 +13,13 @@ button:hover, .button:hover{
 
 .button > button{
     color: #4AD395;
+}
+
+button {
+    cursor: pointer;
+  }
+
+body{
+    margin: 0;
+    min-width: 5%;
 }
