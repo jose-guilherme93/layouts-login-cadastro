@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="signup.html">
+    <title>DietSystem</title>
+    <link rel="stylesheet" href="styles/global.css">
     
+
+    <link rel="stylesheet" href="styles/signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 </head>
-<header>
-    <a href="index.html"> <img src="assets/apple (1) 1.svg" class="img-logo" alt="logotipo com uma maça verde circundada com duas argolas que se entrelaçam, na região central da maça"></a>
-</header>
+
 <body>
     <main class="container">
+        <header>
+            <a href="index.html"><img src="assets/apple (1) 1.svg" class="img-logo"
+                    alt="logotipo com uma maçã verde circundada com duas argolas que se entrelaçam, em sua região central"></a>
+        </header>
 
-    <!-----CADASTRO BUTTONS------>
-        <section class="button">
-            <button class="button register" id="btn-register">
-                <a href="signup.html">Cadastre-se</a>
-                
+        <section class="btn-container">
+            <button class="button register"><a href="signup.html">Cadastre-se</a> 
             </button>
-            <button class="button register">
-                <a href="index.html">Já tenho cadastro</a>
-                
+            <button class="button registered"><a href="index.html">Já tenho cadastro</a>
             </button>
         </section>
 
-    <!-----INPUT FORM--------->
-        <form >
-            <input type="text" class="input-form" placeholder="Seu nome">
-            <input type="number" placeholder="Seu número de celular">
-            <input type="email" class="input-form" placeholder="Seu email">
-            <input type="password" class="input-form" placeholder="Digite uma senha forte">
-            <input type="password" class="input-form" placeholder="Digite a senha novamente">
+        <form class="input-form">
+            <span class="input-email">
+                <img src="assets/user.svg" alt="teste">
+                <input class="email" type="email" placeholder="Seu nome">
+            </span>
+            <span class="input-password">
+                <img src="assets/bi_phone.svg" alt="teste">
+                <input class="number" type="password" placeholder="seu número de celular">
+            </span>
+            <span class="input-email">
+                <img src="./assets/letter.svg" alt="teste">
+                <input class="email" type="email" placeholder="Digite o seu email">
+            </span>
+            <span class="input-password">
+                <img src="./assets/padlock.svg" alt="teste">
+                <input class="password" type="password" placeholder="Digite a sua senha">
+            </span>
+            <span class="input-email">
+                <img src="./assets/padlock.svg" alt="teste">
+                <input class="email" type="email" placeholder="Digite a sua senha novamente">
+            </span>
         </form>
-    <!-----PRIVACY INPUT------>
+        <section class="input-checkbox">
+                <input type="checkbox">
+                   <p>Declaro que li e concordo com os <span> termos de uso</span>, e <span>política de privacidade </span> . </p> 
+            </section>
+        <button class="registered submit">Finalizar cadastro</button>
 
-        <section>
-            <input type="checkbox" class="privacy-input">
-            <p>
-                Declaro que li e concordo com os termos de uso, e a política de privacidade.
-            </p>
-        </section>
 
-        <section>
-            <button class="button">
-            <a href="index.html">Finalizar cadastro</a>    
-                        
-            </button>
-            <button class="button">
-                <a href="#">Carregando...</a>
-            </button>
-        </section>
     </main>
 </body>
+
 </html>
