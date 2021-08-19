@@ -1,11 +1,21 @@
 * {
     box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    
   }
   
-a {
+  a {
     text-decoration: none;
-  }
-
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 1rem;     
+    margin: -2rem;
+    height: 100%;
+    width: 100%;
+    line-height: 1.6rem;
+ }
 button:hover, .button:hover{
     filter: brightness(1.1);
 
@@ -21,5 +31,19 @@ button {
 
 body{
     margin: 0;
-    min-width: 5%;
+    
+}
+
+a:active{
+  
+    color: white;
+
+    
+}
+a::after{
+color: white;
+}
+a[tabindex]:focus {
+  color:blue;
+  outline: none;
 }

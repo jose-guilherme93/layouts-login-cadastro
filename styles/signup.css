@@ -1,14 +1,4 @@
-* {
-    box-sizing: border-box;
-    
-
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  body {
+body {
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -25,13 +15,16 @@
     flex-direction: column;  
     justify-content: center;
     align-items: center;
-    width: 418px;  
+    width: 26.1rem;  
   }
   
   .container header { 
     display: block;
     position: relative;
     margin-bottom: 1.25rem; 
+    margin-top: 4.25rem;
+    height: fit-content;
+    
   }
   
   .btn-container {
@@ -46,14 +39,14 @@
     background: #c1c1c1;
     color: #353535;
     border: none;
-    padding: 5px;
+    padding: .3rem;
     width: 49%;
-    height: 49px;
+    height: 3rem;
   }
   
   .registered {
     background: #4AD395;
-    border-radius: 5px;
+    border-radius: .3rem;
     color: #fff
   }
   
@@ -64,7 +57,7 @@
   .input-email img {
     position: absolute;
     top: 0;
-    left: 10px;
+    left: .6rem;
   }
   
   .input-password {
@@ -74,7 +67,7 @@
   .input-password img {
     position: absolute;
     top: 0;
-    left: 10px;
+    left: .6rem;
   }
 
   input[type="checkbox"] {
@@ -83,7 +76,7 @@
   }
   .input-checkbox{
     display: inline-flex;
-    width: 100%;
+    width: 26.1rem;
     justify-content: space-between;
     
   }
@@ -99,23 +92,23 @@
     color: #4AD395;
     white-space: pre-wrap;
 }
-    .input-password::-ms-check{
-      width: 100px;
-  }
-  .checkbox{
-      width: 90%;
-      height: 90px
-  }
+
+
+
+.checkbox{
+  
+  height: 5.6rem;
+}
   
   .input-form input {
     display: inline-block;
     width: 100%;  
     height: 3em;
-    margin-bottom: 25px;
+    margin-bottom: 1.25rem;
     padding: 5px;
     padding-left: 50px;
     border: 1px solid #4AD395;
-    border-radius: 5px;
+    border-radius: .3rem;
     outline: none;
   }
   
@@ -131,7 +124,8 @@
     border: none;
     width: 50%;  
     margin-top: 20px;
-    height: 50px;
+    margin-bottom: 40px;
+    height: 3.1rem;
   }
 
   
