@@ -1,9 +1,6 @@
 
-setInterval(() => {
 
-window.querySelector('#reload')
-.addEventListener('click', () => {
-    window.location.reload(true)
-})
-
-},50)
+// function clicar() {
+//     var area = document.getElementById('btn-color')
+//     area.style.background = '#E5E5E5A6'
+// }

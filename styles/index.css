@@ -86,11 +86,16 @@
     outline: none;
   }
   
-  #forgot-password {  
+  #forgot-password {
+
     text-align: right;
+    
   }
   #forgot-password a{
     color: #4AD395;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
     
   }
   

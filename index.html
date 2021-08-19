@@ -10,6 +10,7 @@
     
 
     <link rel="stylesheet" href="styles/index.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -25,9 +26,9 @@
         </header>
 
         <section class="btn-container">
-            <button class="button register"> <a href="signup.html">Cadastre-se</a> 
+            <button class="button register" id="btn"> <a href="signup.html">Cadastre-se</a> 
             </button>
-            <button class="button registered"> <a href="index.html">Já tenho cadastro</a>
+            <button class="button registered" id="btn" id="btn-color" onclick="clicar()"> <a href="index.html">Já tenho cadastro</a>
             </button>
         </section>
 
@@ -38,7 +39,6 @@
                 <input class="email" type="email" placeholder="Digite o seu email">
             </span>
             <span class="input-password">
-                <!-- <img src="./assets/eye.svg" id="img-eye"> -->
                 <img src="./assets/padlock.svg">
                 <input class="password" type="password" placeholder="Digite a sua senha">
 
@@ -51,10 +51,13 @@
         </form>
 
 
-        <button class="registered submit"> <a href="">Entrar</a> </button>
+        <button class="registered submit" ><a href="">Entrar</a> </button>
 
 
     </main>
+    <script src="main.js">
+       
+    </script>
 </body>
 
 </html>

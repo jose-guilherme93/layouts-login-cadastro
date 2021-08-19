@@ -22,28 +22,37 @@ button:hover, .button:hover{
 }
 
 .button > button{
-    color: #4AD395;
+  color: #4AD395;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+    
   }
 
+
+
 body{
-    margin: 0;
+  margin: 0;
     
 }
 
 a:active{
   
     color: white;
-
-    
 }
-a::after{
+a:link{
 color: white;
 }
+
+a:visited{
+  color: white;
+}
+
 a[tabindex]:focus {
-  color:blue;
+  color:ble;
   outline: none;
+}
+#btn-color{
+  background-color: #4AD395;
 }
