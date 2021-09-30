@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DietSystem</title>
     <link rel="stylesheet" href="styles/global.css">
-    
+
 
     <link rel="stylesheet" href="styles/index.css">
 
@@ -26,24 +26,25 @@
         </header>
 
         <section class="btn-container">
-            <button class="button register" id="btn"> <a href="signup.html">Cadastre-se</a> 
+            <button class="button register" id="btn"> <a href="signup.html">Cadastre-se</a>
             </button>
-            <button class="button registered" id="btn" id="btn-color" onclick="clicar()"> <a href="index.html">Já tenho cadastro</a>
+            <button class="button registered" id="btn" id="btn-color" onclick="clicar()"> <a href="index.html">Já tenho
+                    cadastro</a>
             </button>
         </section>
 
         <form class="input-form">
             <span class="input-email">
                 <img src="./assets/letter.svg" id="img-letter">
-                
-                <input class="email" type="email" placeholder="Digite o seu email">
+
+                <input class="email" type="email" id="emailId" placeholder="email@example.com">
             </span>
             <span class="input-password">
                 <img src="./assets/padlock.svg">
-                <input class="password" type="password" placeholder="Digite a sua senha">
+                <input class="password" id="passwordId" type="password" placeholder="password">
 
             </span>
-                
+
             <section id="forgot-password">
                 <a href="recover-password.html">esqueci minha senha</a>
             </section>
@@ -51,12 +52,12 @@
         </form>
 
 
-        <button class="registered submit" ><a href="">Entrar</a> </button>
+        <button class="registered submit"><a href="" onclick="loginButton()">Entrar</a> </button>
 
 
     </main>
-    <script src="main.js">
-       
+    <script src="JS/loginButton.js">
+
     </script>
 </body>
 
