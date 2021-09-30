@@ -30,8 +30,6 @@ button {
     
   }
 
-
-
 body{
   margin: 0;
     
@@ -39,7 +37,7 @@ body{
 
 a:active{
   
-    color: white;
+  color: white;
 }
 a:link{
 color: white;
